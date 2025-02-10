@@ -1,12 +1,14 @@
 {
   "name": "moment3-cssprepropessorer",
   "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "author": "thne1900",
   "license": "ISC",
+  "source":"src/index.html",
+  "browserslist":">0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
   "description": "",
   "devDependencies": {
     "parcel": "^2.13.3"
