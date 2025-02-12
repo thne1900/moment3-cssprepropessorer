@@ -1,6 +1,10 @@
-$primary-color:#ECA8A9;
+$font-stack:Arial, sans-serif;
+$background-color:#FF1493;
+$primary-color:#000000;
+$secondary-color:#E98EAB;
 
 body {
-
-    color:$primary-color;
+background-color: $background-color;
+font-family:$font-stack;
+color:$primary-color;
 }
