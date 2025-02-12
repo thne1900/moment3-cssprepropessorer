@@ -2,9 +2,25 @@ $font-stack:Arial, sans-serif;
 $background-color:#FF1493;
 $primary-color:#000000;
 $secondary-color:#E98EAB;
+$font-size-standard:1.2em;
+$font-size-nav:1.6em;
+
+$margin-left:auto;
+$margin-right:auto;
 
 body {
 background-color: $background-color;
 font-family:$font-stack;
 color:$primary-color;
+margin:$margin-left;
+margin:$maergin-right;
+font-size:$font-size-standard;
+}
+
+nav {
+    ul {list-style: none;
+    }
+    li {display:inline-block; box-shadow: 4px 4px 8px rgba(0,0,0,0.5);
+    }
+    a {font-size: $font-size-nav;}
 }

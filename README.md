@@ -8,3 +8,4 @@
 - Testkörde med kommando (start).
 - La alla filer som ska exkluderas i .gitignore-filen. 
 - Påbörjade ett grundupplägg med kod i de två html-dokumenten.
+- Lade in scss-kod i _base.scss för de olika färgerna jag tänker använda mig av på bakgrund. text och rubriker. 
