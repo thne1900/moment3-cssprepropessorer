@@ -4,7 +4,7 @@ $primary-color:#000000;
 $secondary-color:#E98EAB;
 $font-size-standard:1.2em;
 $font-size-nav:1.6em;
-
+$background-color-nav:#FFFFFF;
 $margin-left:auto;
 $margin-right:auto;
 
@@ -22,5 +22,5 @@ nav {
     }
     li {display:inline-block; box-shadow: 4px 4px 8px rgba(0,0,0,0.5);
     }
-    a {font-size: $font-size-nav;}
+    a {font-size: $font-size-nav; color:$secondary-color;background-color: $background-color-nav;}
 }
