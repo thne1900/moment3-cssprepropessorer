@@ -7,6 +7,7 @@ $primary-color:#000000;
 $secondary-color:#E98EAB;
 $font-size-standard:1.2em;
 $font-size-nav:1.6em;
+$font-size-heading:2.5em;
 $mar-l:auto;
 $mar-r:auto;
 
@@ -14,6 +15,11 @@ body {font-family:$font-stack;
 background-color: $bg-color;
 color:$primary-color;
 }
+
+h1{font-size:$font-size-heading; 
+    text-shadow: 4px 4px 8px black;
+    color:$secondary-color;
+text-align: center;}
 
 #header {background-color: $bg-color-top;
 max-width:1512px;
@@ -36,4 +42,4 @@ nav {
     align-items: center;
 margin-right:20px;}
 
-footer {background-color: $bg-color-footer;text-align: center;}
+footer {background-color: $bg-color-footer;text-align: center;text-shadow: 2px 2px 4px white;}

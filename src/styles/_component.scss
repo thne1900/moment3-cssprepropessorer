@@ -1,1 +1,10 @@
-@mixin links 
+@mixin images ($w-size, $h-size, $img-radius, $border){
+    width: $w-size;
+    height: $h-size;
+    border-radius: $img-radius;
+    border: $border;
+
+}
+img {
+    @include images(50%, auto, 50%, 4px solid white);
+}
