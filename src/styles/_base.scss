@@ -5,11 +5,12 @@ $bg-color-top:pink;
 $primary-color:#000000;
 $secondary-color:#E98EAB;
 $dark-color:darken(pink, 10%);
-$light-color:lighten($primary-color, 20%);
+$light-color:lighten(black, 20%);
 $font-size-standard:1.3em;
 $font-size-nav:1.6em;
 $font-size-heading:2.5em;
 $lineheight-standard:1.5;
+$width-standard:1512px;
 $mar-l:auto;
 $mar-r:auto;
 
@@ -17,7 +18,9 @@ body {
 font-family:$font-stack;
 background-color: $bg-color;
 color:$primary-color;
-line-height: $lineheight-standard;
+max-width:$width-standard;
+margin:$mar-l; 
+margin:$mar-r;
 }
 
 h1{font-size:$font-size-heading; 
@@ -25,11 +28,14 @@ h1{font-size:$font-size-heading;
     color:$secondary-color;
 text-align: center;}
 
+.welcome {line-height: $lineheight-standard; margin-bottom: 8%;}
+
 #header {background-color: $bg-color-top;
 max-width:1512px;
 height:150px;
-$mar-l:auto;
-$mar-r:auto;}
+margin:$mar-l;
+margin:$mar-r;
+box-shadow: 8px 8px 10px rgb(0,0,0,0.70);}
 
 nav{
     ul {list-style: none; display:flex;

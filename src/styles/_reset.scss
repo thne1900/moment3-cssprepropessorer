@@ -1,0 +1,28 @@
+$bg-dark:rgb(30, 19, 38);
+$color-dark: grey;
+$bg-light:#FF1493;
+$color-light:black;
+$secondary-color:#E98EAB;
+$bg-header-dark: rgb(57, 4, 57);
+$color-header-dark: black;
+$bg-footer-dark:  rgb(16, 16, 62);
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: $bg-light;
+        color: $color-light;
+    }
+    h1{color:$secondary-color;}
+}
+
+@media (prefers-color-scheme:dark){
+    body {
+        background-color:$bg-dark;
+        color:$color-dark;
+    }
+    footer {background-color: $bg-footer-dark; color:$color-dark; text-shadow: none;}
+    nav ul li a {color: $color-header-dark;}
+    #header {background-color: $bg-header-dark;}
+}
+
+
