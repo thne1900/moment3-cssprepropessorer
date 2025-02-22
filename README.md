@@ -12,5 +12,10 @@
 - I filen _component lades mixins och if/else satser in för webbplatsens bilder och huvudrubriker.
 - Kring placeringar av elementen har dessa lagts i _layout-partial då jag använde mig av grid-container. 
 - Vid arbetet på ljust och mörkt färgschema med media query la jag detta i filen _colorscheme.
-- I filen main.scss skrev jag in alla de partials som skulle inkluderas. 
+- I filen main.scss skrev jag in alla de partials som skulle inkluderas.
+- Kontrollerade filernas struktur och kommenterade koden för förtydligande. 
+- Testkörde och körde kommando för publicering.
+
+### Av: thne1900,  
+### Kurs: Frontend-baserad webbutveckling
 
