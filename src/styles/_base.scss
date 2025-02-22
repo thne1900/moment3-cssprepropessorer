@@ -8,7 +8,6 @@ $dark-color:darken(pink, 10%);
 $light-color:lighten(black, 20%);
 $font-size-standard:1.3em;
 $font-size-nav:1.6em;
-$font-size-heading:2.5em;
 $lineheight-standard:1.5;
 $width-standard:1512px;
 $mar-l:auto;
@@ -23,12 +22,13 @@ margin:$mar-l;
 margin:$mar-r;
 }
 
-h1{font-size:$font-size-heading; 
-    text-shadow: 4px 4px 8px black;
+h1{
     color:$secondary-color;
 text-align: center;}
 
 .welcome {line-height: $lineheight-standard; margin-bottom: 8%;}
+
+.sass {@extend.welcome; text-align: center;}
 
 #header {background-color: $bg-color-top;
 max-width:1512px;

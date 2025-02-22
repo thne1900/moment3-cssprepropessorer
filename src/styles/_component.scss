@@ -8,3 +8,18 @@ img {
     @include images(50%, auto, 50%, 4px solid white);
 }
 
+@mixin h1 ($h1-size, $shadow) {
+
+    font-size: $h1-size;
+
+    @if $shadow {
+        text-shadow: 4px 4px 8px black;
+    }@else{
+text-shadow: none;
+
+    }
+}
+h1 {
+    @include h1(2.5em, true);
+}
+
