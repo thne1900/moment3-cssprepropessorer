@@ -9,6 +9,8 @@
 - La alla filer som ska exkluderas i .gitignore-filen. 
 - Påbörjade ett grundupplägg med kod i de två html-dokumenten.
 - Lade in scss-kod i _base.scss för de olika färgerna jag tänker använda mig av på bakgrund. text och rubriker. Utformade även sidans grundläggande element (header, nav, ham-menu,footer) med dess utformning i _base.
-- I filen _component lades en mixin in för webbplatsens bilder.
-- Kring placeringar av elementen har dessa lagts i _layout-partial. 
+- I filen _component lades mixins och if/else satser in för webbplatsens bilder och huvudrubriker.
+- Kring placeringar av elementen har dessa lagts i _layout-partial då jag använde mig av grid-container. 
+- Vid arbetet på ljust och mörkt färgschema med media query la jag detta i filen _colorscheme.
+- I filen main.scss skrev jag in alla de partials som skulle inkluderas. 
 
